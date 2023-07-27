@@ -1,20 +1,25 @@
 # contents-tree
 
-## Project Setup
+## This one is a small testing task.
 
+To launch it, clone repository with
+```sh
+git clone git@github.com:juneaucross/contents-tree.git
+```
+
+Then install dependencies using
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production and launch preview
-
+and finally run
 ```sh
 npm run build
 npm run preview
+```
+to build an app and launch it in _preview_ mode.
+
+You may also launch it in _development_ mode with
+```sh
+npm run dev
 ```
