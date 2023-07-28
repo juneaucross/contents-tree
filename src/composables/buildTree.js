@@ -1,5 +1,5 @@
 export function useBuildTree(pages, rootLevelKeys) {
-  const _pages = JSON.parse(JSON.stringify(pages));
+  const _pages = structuredClone(pages);
   const result = [];
 
   const queue = rootLevelKeys.map((key) => {
